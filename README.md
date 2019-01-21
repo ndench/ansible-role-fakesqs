@@ -1,9 +1,8 @@
 # Ansible ndench.fakesqs role
 
 [![Build Status](https://img.shields.io/travis/ndench/ansible-role-fakesqs.svg)](https://travis-ci.org/ndench/ansible-role-fakesqs)
-[![Galaxy](http://img.shields.io/badge/galaxy-ndench.fakesqs-role-blue.svg)](https://galaxy.ansible.com/ndench/fakesqs)
+[![Galaxy](http://img.shields.io/badge/galaxy-ndench.fakesqs-blue.svg)](https://galaxy.ansible.com/ndench/fakesqs)
 [![GitHub Tags](https://img.shields.io/github/tag/ndench/ansible-role-fakesqs.svg)](https://github.com/ndench/ansible-role-fakesqs)
-[![GitHub Stars](https://img.shields.io/github/stars/ndench/ansible-role-fakesqs.svg)](https://github.com/ndench/ansible-role-fakesqs)
 
 > `ndench.fakesqs` is an [Ansible](http://www.ansible.com) role which:
 >
