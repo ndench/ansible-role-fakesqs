@@ -1,0 +1,9 @@
+---
+fakesqs_gem: fake_sqs
+fakesqs_service_enabled: yes
+fakesqs_service_state: started
+
+# Whether to create a queue
+fakesqs_create_queue: true
+fakesqs_queue_name: sqs_dev
+

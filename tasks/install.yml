@@ -1,0 +1,20 @@
+---
+- name: install fakesqs
+  gem:
+    name: "{{ fakesqs_gem }}"
+    state: present
+    user_install: no
+
+- name: copy fakesqs systemd unit into place
+  copy:
+    src: fakesqs.service
+    dest: /etc/systemd/system/fakesqs.service
+    mode: 0755
+    owner: root
+    group: root
+
+- name: ensure fakesqs is enabled
+  service:
+    name: fakesqs
+    state: "{{ fakesqs_service_state }}"
+    enabled: "{{ fakesqs_service_enabled }}"

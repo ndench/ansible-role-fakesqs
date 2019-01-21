@@ -1,0 +1,21 @@
+galaxy_info:
+  author: ndench
+  description: Lightweight server that supports the AWS SQS API
+  license: MIT
+  min_ansible_version: 2.4
+
+  platforms:
+  - name: Ubuntu
+    versions:
+    - xenial
+    - bionic
+
+  galaxy_tags:
+      - development
+      - web
+      - aws
+      - sqs
+      - fakesqs
+
+dependencies:
+    - { role: geerlingguy.ruby, become: true }

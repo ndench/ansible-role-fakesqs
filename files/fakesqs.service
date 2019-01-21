@@ -1,0 +1,9 @@
+[Unit]
+Description=Fake SQS
+AssertPathExists=/usr/local/bin/fake_sqs
+
+[Service]
+ExecStart=/usr/local/bin/fake_sqs
+
+[Install]
+WantedBy=multi-user.target

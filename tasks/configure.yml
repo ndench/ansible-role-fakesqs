@@ -1,0 +1,5 @@
+---
+- name: create fakesqs queue
+  uri:
+    url: "http://localhost:4568?Action=CreateQueue&QueueName={{ fakesqs_queue_name }}"
+  when: fakesqs_create_queue
