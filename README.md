@@ -6,7 +6,7 @@
 
 > `ndench.fakesqs` is an [Ansible](http://www.ansible.com) role which:
 >
-> * installs [fakesqs](https://github.com/jubos/fake-s3)
+> * installs [fakesqs](https://github.com/iain/fake_sqs)
 > * configures fakesqs service
 > * (optional) create fakesqs queue
 > * allows development against the SQS API

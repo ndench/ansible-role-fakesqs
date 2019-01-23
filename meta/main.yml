@@ -12,11 +12,11 @@ galaxy_info:
     - bionic
 
   galaxy_tags:
-      - development
-      - web
-      - aws
-      - sqs
-      - fakesqs
+    - development
+    - web
+    - aws
+    - sqs
+    - fakesqs
 
 dependencies:
     - { role: geerlingguy.ruby, become: true }
